@@ -114,6 +114,9 @@ const StoriesWrapper = styled.div`
 
 const OpinionSection = styled.section`
   grid-area: opinion-stories;
+  @media ${QUERIES.laptopAndUp} {
+    margin-top: -8px;
+  }
 `;
 
 const AdvertisementSection = styled.section`
